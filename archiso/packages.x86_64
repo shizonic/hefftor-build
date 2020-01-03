@@ -5,6 +5,7 @@
 ###archiso
 arch-install-scripts
 #b43-fwcutter
+bind-tools
 broadcom-wl
 btrfs-progs
 clonezilla
@@ -761,6 +762,7 @@ hefftor-mac-theme-git
 hefftor-tela-blue-icons-git
 hefftor-wallpapers-git
 hefftor-variety-git
+hefftor-betterlockscreen-cache-git
 
 ###########################################################################
 #                             HEFFTOR XFCE
