@@ -12,7 +12,7 @@ outFolder="$HOME/ArcoHefftor-Out"
 #Let us change the name"
 #First letter of desktop small
 
-desktop="plasma"
+desktop="hlwm"
 
 #build.sh
 oldname1="iso_name=arcolinux-hefftor"
