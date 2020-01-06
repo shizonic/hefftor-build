@@ -512,11 +512,11 @@ arcolinux-oblogout-themes-git
 arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
-arcolinux-polybar-git
+# arcolinux-polybar-git
 # arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-arcolinux-rofi-git
-arcolinux-rofi-themes-git
+# arcolinux-rofi-git
+# arcolinux-rofi-themes-git
 # arcolinux-root-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git
@@ -596,7 +596,7 @@ arcolinux-system-config-git
 #arcolinux-dwm-dconf-git
 #arcolinux-enlightenment-dconf-git
 #arcolinux-gnome-dconf-git
-arcolinux-herbstluftwm-dconf-git
+# arcolinux-herbstluftwm-dconf-git
 #arcolinux-i3wm-dconf-git
 #arcolinux-jwm-dconf-git
 #arcolinux-lxqt-dconf-git
@@ -754,7 +754,7 @@ hefftor-grub-theme-vimix-git
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-hefftor-conky-git
+# hefftor-conky-git
 hefftor-root-git
 hefftor-gimp-git
 hefftor-plank-git
@@ -777,8 +777,11 @@ hefftor-xfce4-panel-profiles-git
 ###########################################################################
 #                             HEFFTOR HLWM
 ###########################################################################
-hefftor-herbstluft-config-git
-hefftor-herbstluft-local-git
+hefftor-herbstluftwm-config-git
+hefftor-herbstluftwm-local-git
+hefftor-herbstluftwm-dconf-git
+hefftor-conky-herbstluftwm-git
+
 
 ###########################################################################
 #                         HEFFTOR APPLICATIONS

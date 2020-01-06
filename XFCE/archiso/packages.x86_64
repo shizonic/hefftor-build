@@ -776,19 +776,19 @@ hefftor-xfce4-panel-profiles-git
 ###########################################################################
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
-# insync
+insync
 betterlockscreen-git
-# zoom
+zoom
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-# code
-# discord
-# telegram-desktop
-# npm
-# nodejs
-# filezilla
-# wps-office
+code
+discord
+telegram-desktop
+npm
+nodejs
+filezilla
+wps-office
 encfs
 strawberry
