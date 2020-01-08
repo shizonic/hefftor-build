@@ -243,7 +243,7 @@ evolution
 feh
 firefox
 #flashplugin
-galculator
+# galculator
 # geany
 gimp
 gmrun
@@ -330,7 +330,7 @@ gnome-keyring
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-gpick
+# gpick
 gtop
 hardinfo
 hddtemp
@@ -776,9 +776,7 @@ hefftor-xfce4-panel-profiles-git
 ###########################################################################
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
-insync
 betterlockscreen-git
-zoom
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
@@ -788,7 +786,9 @@ discord
 telegram-desktop
 npm
 nodejs
-filezilla
-wps-office
 encfs
 strawberry
+krita
+gimp-plugin-gmic
+gnome-calculator
+gcolor3

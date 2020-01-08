@@ -801,7 +801,11 @@ telegram-desktop
 # filezilla
 # wps-office
 encfs
-strawberry
+# strawberry
+krita
+gimp-plugin-gmic
+# gnome-calculator
+# gcolor3
 
 ###########################################################################
 #                                ISO SPECIFIC

@@ -243,7 +243,7 @@ evolution
 feh
 firefox
 #flashplugin
-galculator
+# galculator
 # geany
 gimp
 gmrun
@@ -330,7 +330,7 @@ gnome-keyring
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-gpick
+# gpick
 gtop
 hardinfo
 hddtemp
@@ -514,7 +514,7 @@ arcolinux-pipemenus-git
 #arcolinux-plank-themes-git
 # arcolinux-polybar-git
 # arcolinux-qt5-git
-#arcolinux-qt5-plasma-git
+# arcolinux-qt5-plasma-git
 # arcolinux-rofi-git
 # arcolinux-rofi-themes-git
 # arcolinux-root-git
@@ -780,6 +780,7 @@ hefftor-xfce4-panel-profiles-git
 hefftor-bspwm-git
 hefftor-bspwm-config-git
 hefftor-bspwm-dconf-git
+hefftor-bspwm-local-git
 hefftor-conky-herbstluftwm-git
 
 
@@ -793,15 +794,22 @@ betterlockscreen-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-# code
-# discord
-# telegram-desktop
-# npm
-# nodejs
-# filezilla
+code
+discord
+telegram-desktop
+npm
+nodejs
+filezilla
+ncmpcpp
+mpd
+dunst
 # wps-office
 encfs
-strawberry
+# strawberry
+krita
+gimp-plugin-gmic
+gnome-calculator
+gcolor3
 
 ###########################################################################
 #                                ISO SPECIFIC

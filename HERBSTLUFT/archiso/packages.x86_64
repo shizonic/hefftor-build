@@ -243,7 +243,7 @@ evolution
 feh
 firefox
 #flashplugin
-galculator
+# galculator
 # geany
 gimp
 gmrun
@@ -330,7 +330,7 @@ gnome-keyring
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-gpick
+# gpick
 gtop
 hardinfo
 hddtemp
@@ -793,15 +793,22 @@ betterlockscreen-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-# code
-# discord
-# telegram-desktop
-# npm
-# nodejs
+code
+discord
+telegram-desktop
+npm
+nodejs
 # filezilla
+ncmpcpp
+mpd
+dunst
 # wps-office
 encfs
 # strawberry
+krita
+gimp-plugin-gmic
+gnome-calculator
+gcolor3
 
 ###########################################################################
 #                                ISO SPECIFIC
