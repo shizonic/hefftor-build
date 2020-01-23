@@ -515,7 +515,7 @@ arcolinux-plank-themes-git
 #arcolinux-polybar-git
 # arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-arcolinux-rofi-git
+# arcolinux-rofi-git
 arcolinux-rofi-themes-git
 # arcolinux-root-git
 # arcolinux-slim
@@ -757,9 +757,12 @@ hefftor-conky-git
 hefftor-root-git
 hefftor-gimp-git
 hefftor-plank-git
+hefftor-xfce-rofi-git
 hefftor-lightdm-gtk-greeter
-hefftor-mac-theme-git
+# hefftor-mac-theme-git
+hefftor-juno-theme-git
 hefftor-tela-blue-icons-git
+hefftor-bibata-cursor-git
 hefftor-wallpapers-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
@@ -777,13 +780,16 @@ hefftor-xfce4-panel-profiles-git
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
 betterlockscreen-git
+hefftor-skelapp-git
+thermald
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-code
-discord
-telegram-desktop
+brave
+# code
+# discord
+# telegram-desktop
 npm
 nodejs
 encfs
@@ -792,3 +798,5 @@ krita
 gimp-plugin-gmic
 gnome-calculator
 gcolor3
+tlp
+tlp-rdw

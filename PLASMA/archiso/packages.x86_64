@@ -793,19 +793,19 @@ hefftor-plasma-plank-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-# code
+code
 discord
 telegram-desktop
-# npm
-# nodejs
+npm
+nodejs
 # filezilla
 # wps-office
 encfs
-# strawberry
+strawberry
 krita
 gimp-plugin-gmic
-# gnome-calculator
-# gcolor3
+gnome-calculator
+gcolor3
 
 ###########################################################################
 #                                ISO SPECIFIC

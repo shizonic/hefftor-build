@@ -759,9 +759,11 @@ hefftor-root-git
 hefftor-gimp-git
 hefftor-plank-git
 hefftor-lightdm-gtk-greeter
-hefftor-mac-theme-git
+# hefftor-mac-theme-git
 hefftor-tela-blue-icons-git
+hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
+hefftor-bibata-cursor-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
 
@@ -786,16 +788,17 @@ hefftor-conky-herbstluftwm-git
 ###########################################################################
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
-# insync
 betterlockscreen-git
-# zoom
+hefftor-skelapp-git
+thermald
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-code
-discord
-telegram-desktop
+brave
+# code
+# discord
+# telegram-desktop
 npm
 nodejs
 # filezilla
@@ -809,7 +812,8 @@ krita
 gimp-plugin-gmic
 gnome-calculator
 gcolor3
-
+tlp
+tlp-rdw
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
