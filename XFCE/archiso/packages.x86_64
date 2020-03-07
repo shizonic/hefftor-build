@@ -241,7 +241,7 @@ poppler-qt5
 dmenu
 evolution
 feh
-firefox
+# firefox
 #flashplugin
 # galculator
 # geany
@@ -403,8 +403,9 @@ zenity
 breeze-cursors-lh
 breeze-obsidian-cursor-theme
 oxy-neon
-xcursor-breeze
-xcursor-vanilla-dmz-aa
+# xcursor-breeze
+capitaine-cursors
+# xcursor-vanilla-dmz-aa
 
 ###fonts
 ttf-font-awesome
@@ -486,7 +487,7 @@ arcolinux-cron-git
 arcolinux-faces-git
 arcolinux-fonts-git
 # arcolinux-geany-git
-# arcolinux-grub-theme-vimix-git
+arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
 arcolinux-kvantum-git
@@ -616,6 +617,7 @@ arco-calamares
 #arco-calamares-dev
 #arco-calamares-comp
 # arcolinux-system-installation-git
+arcolinux-welcome-app-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -629,12 +631,16 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
+#kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
 plasma-framework
 hwinfo
 qt5-xmlpatterns
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 
 ###########################################################################
 #                                ARCOLINUX CONFIG CALAMARES
@@ -748,12 +754,14 @@ gtk-engine-murrine
 ###########################################################################
 hefftor-calamares-config-git
 hefftor-system-installation-git
-hefftor-grub-theme-vimix-git
+# hefftor-grub-theme-vimix-git
 
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-hefftor-conky-git
+hefftor-conky-new-git
+hefftor-glava-config-git
+hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
 hefftor-plank-git
@@ -761,6 +769,7 @@ hefftor-xfce-rofi-git
 hefftor-lightdm-gtk-greeter
 # hefftor-mac-theme-git
 hefftor-juno-theme-git
+hefftor-jetbrainsmono-font-git
 hefftor-tela-blue-icons-git
 hefftor-bibata-cursor-git
 hefftor-wallpapers-git
@@ -790,10 +799,14 @@ brave
 # code
 # discord
 # telegram-desktop
+mpd
+mpc
+ncmpcpp
+glava
 npm
 nodejs
 encfs
-strawberry
+# strawberry
 krita
 gimp-plugin-gmic
 gnome-calculator

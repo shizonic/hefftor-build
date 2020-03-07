@@ -241,7 +241,7 @@ picom
 dmenu
 evolution
 feh
-firefox
+# firefox
 #flashplugin
 # galculator
 # geany
@@ -403,8 +403,8 @@ zenity
 breeze-cursors-lh
 breeze-obsidian-cursor-theme
 oxy-neon
-xcursor-breeze
-xcursor-vanilla-dmz-aa
+# xcursor-breeze
+# xcursor-vanilla-dmz-aa
 
 ###fonts
 ttf-font-awesome
@@ -486,7 +486,7 @@ arcolinux-cron-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 # arcolinux-geany-git
-# arcolinux-grub-theme-vimix-git
+arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
 arcolinux-kvantum-git
@@ -629,12 +629,16 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
+#kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
 plasma-framework
 hwinfo
 qt5-xmlpatterns
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 
 ###########################################################################
 #                                ARCOLINUX CONFIG CALAMARES
@@ -749,17 +753,20 @@ gtk-engine-murrine
 ###########################################################################
 hefftor-calamares-config-herbstluftwm-git
 hefftor-system-installation-git
-hefftor-grub-theme-vimix-git
+# hefftor-grub-theme-vimix-git
 
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-# hefftor-conky-git
+hefftor-conky-twm-new-git
+hefftor-glava-config-git
+hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
 hefftor-plank-git
 hefftor-lightdm-gtk-greeter
 # hefftor-mac-theme-git
+hefftor-polybar-git
 hefftor-tela-blue-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
@@ -782,7 +789,7 @@ hefftor-xfce4-panel-profiles-git
 hefftor-herbstluftwm-config-git
 hefftor-herbstluftwm-local-git
 hefftor-herbstluftwm-dconf-git
-hefftor-conky-herbstluftwm-git
+# hefftor-conky-herbstluftwm-git
 
 
 ###########################################################################
@@ -790,6 +797,8 @@ hefftor-conky-herbstluftwm-git
 ###########################################################################
 betterlockscreen-git
 hefftor-skelapp-git
+hefftor-polybar-switcher-git
+arcolinux-welcome-app-git
 thermald
 
 ###########################################################################
@@ -804,6 +813,8 @@ nodejs
 # filezilla
 ncmpcpp
 mpd
+mpc
+glava
 dunst
 # wps-office
 encfs
@@ -814,6 +825,7 @@ gnome-calculator
 gcolor3
 tlp
 tlp-rdw
+dex
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
