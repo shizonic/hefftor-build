@@ -239,13 +239,13 @@ picom
 #darktable
 #deadbeef
 dmenu
-evolution
+# evolution
 feh
 # firefox
 #flashplugin
 # galculator
 # geany
-gimp
+# gimp
 gmrun
 gsimplecal
 guvcview
@@ -254,12 +254,12 @@ inkscape
 #libreoffice-fresh
 #lshw
 meld
-nitrogen
+# nitrogen
 numlockx
 #pragha
 qbittorrent
 scrot
-simplescreenrecorder
+# simplescreenrecorder
 # termite
 #tint2
 variety
@@ -333,7 +333,7 @@ gparted
 # gpick
 gtop
 hardinfo
-hddtemp
+# hddtemp
 htop
 #hunspell
 #hunspell-en
@@ -347,7 +347,7 @@ libmtp
 laptop-detect
 lsb-release
 mlocate
-nomacs
+# nomacs
 p7zip
 #plank
 playerctl
@@ -365,14 +365,14 @@ reflector
 #redshift
 rofi
 rxvt-unicode
-simple-scan
+# simple-scan
 #shotwell
 speedtest-cli
-timeshift
+# timeshift
 #tlp
 tree
 ufw
-gufw
+# gufw
 unace
 unrar
 unzip
@@ -400,8 +400,8 @@ zenity
 #vivaldi-codecs-ffmpeg-extra-bin
 
 ###cursors
-breeze-cursors-lh
-breeze-obsidian-cursor-theme
+# breeze-cursors-lh
+# breeze-obsidian-cursor-theme
 oxy-neon
 # xcursor-breeze
 # xcursor-vanilla-dmz-aa
@@ -433,13 +433,13 @@ mkinitcpio-openswap
 aurvote-git
 conky-lua-archers
 downgrade
-font-manager-git
+# font-manager-git
 glxinfo
 grub-customizer
 hardcode-fixer-git
 inxi
 #menulibre
-mintstick-git
+# mintstick-git
 #mugshot
 neofetch
 numix-gtk-theme-git
@@ -448,7 +448,7 @@ peek
 pulseaudio-equalizer-ladspa
 python-pyparted
 python-pywal
-screenkey-git
+# screenkey-git
 sublime-text-dev
 the_platinum_searcher-bin
 tmux
@@ -507,14 +507,14 @@ arcolinux-oblogout
 arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-git
 #arcolinux-obmenu-generator-minimal-git
-#arcolinux-openbox-git
+#arcolinux-obmenu-generator-xtended-git
 #arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
 # arcolinux-polybar-git
 # arcolinux-qt5-git
-#arcolinux-qt5-plasma-git
+# arcolinux-qt5-plasma-git
 # arcolinux-rofi-git
 # arcolinux-rofi-themes-git
 # arcolinux-root-git
@@ -612,8 +612,8 @@ arcolinux-system-config-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares
-#arco-calamares-dev
+arco-calamares-next
+# arco-calamares-dev
 #arco-calamares-comp
 # arcolinux-system-installation-git
 
@@ -758,15 +758,18 @@ hefftor-system-installation-git
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
+# hefftor-conky-git
 hefftor-conky-twm-new-git
 hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
-hefftor-plank-git
-hefftor-lightdm-gtk-greeter
-# hefftor-mac-theme-git
+# hefftor-plank-git
 hefftor-polybar-git
+# hefftor-lightdm-gtk-greeter
+hefftor-lightdm-slick-greeter-git
+# hefftor-mac-theme-git
+hefftor-juno-theme-git
 hefftor-tela-blue-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
@@ -798,7 +801,9 @@ hefftor-herbstluftwm-dconf-git
 betterlockscreen-git
 hefftor-skelapp-git
 hefftor-polybar-switcher-git
-arcolinux-welcome-app-git
+hefftor-welcome-app-git
+hefftor-twm-wallpaper-changer-git
+hefftor-betterlockscreen-gui-git
 thermald
 
 ###########################################################################
@@ -819,8 +824,8 @@ dunst
 # wps-office
 encfs
 # strawberry
-krita
-gimp-plugin-gmic
+# krita
+# gimp-plugin-gmic
 gnome-calculator
 gcolor3
 tlp

@@ -241,11 +241,11 @@ poppler-qt5
 #dmenu
 #evolution
 feh
-firefox
+#firefox
 #flashplugin
 #galculator
 #geany
-gimp
+#gimp
 #gmrun
 #gsimplecal
 #guvcview
@@ -259,7 +259,7 @@ numlockx
 #pragha
 #qbittorrent
 scrot
-simplescreenrecorder
+# simplescreenrecorder
 # termite
 #tint2
 variety
@@ -326,14 +326,14 @@ gksu
 glances
 #gnome-disk-utility
 #gnome-keyring
-#gnome-screenshot
+# gnome-screenshot
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-#gpick
+# gpick
 gtop
 hardinfo
-hddtemp
+# hddtemp
 htop
 #hunspell
 #hunspell-en
@@ -349,8 +349,8 @@ lsb-release
 mlocate
 #nomacs
 p7zip
-plank
-#playerctl
+# plank
+# playerctl
 polkit
 #polkit-gnome
 python2-dbus
@@ -365,14 +365,14 @@ reflector
 #redshift
 #rofi
 rxvt-unicode
-simple-scan
+# simple-scan
 #shotwell
 speedtest-cli
-timeshift
+# timeshift
 #tlp
 tree
 ufw
-gufw
+# gufw
 unace
 unrar
 unzip
@@ -411,13 +411,13 @@ zenity
 ttf-ms-fonts
 
 ###icons
-#faba-icon-theme
-#halo-icons-git
-#moka-icon-theme
-#numix-circle-arc-icons-git
-#numix-icon-theme-git
-#numix-circle-icon-theme-git
-#paper-icon-theme
+# faba-icon-theme
+# halo-icons-git
+# moka-icon-theme
+# numix-circle-arc-icons-git
+# numix-icon-theme-git
+# numix-circle-icon-theme-git
+# paper-icon-theme
 sardi-icons
 surfn-icons-git
 surfn-arc-breeze-icons-git
@@ -433,13 +433,13 @@ mkinitcpio-openswap
 #aurvote-git
 conky-lua-archers
 downgrade
-font-manager-git
+# font-manager-git
 glxinfo
 grub-customizer
 hardcode-fixer-git
 inxi
 #menulibre
-mintstick-git
+# mintstick-git
 #mugshot
 neofetch
 #numix-gtk-theme-git
@@ -448,7 +448,7 @@ peek
 #pulseaudio-equalizer-ladspa
 python-pyparted
 #python-pywal
-screenkey-git
+#screenkey-git
 sublime-text-dev
 the_platinum_searcher-bin
 tmux
@@ -479,14 +479,14 @@ arcolinux-arc-kde
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-#arcolinux-conky-collection-git
-arcolinux-conky-collection-plasma-git
+# arcolinux-conky-collection-git
+#arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 # arcolinux-geany-git
-# arcolinux-grub-theme-vimix-git
+arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
 #arcolinux-kvantum-git
@@ -494,7 +494,7 @@ arcolinux-keyring
 #arcolinux-kvantum-plasma-git
 #arcolinux-lightdm-gtk-greeter
 # arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
+# arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -511,7 +511,7 @@ arcolinux-neofetch-git
 #arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
 # arcolinux-plank-git
-arcolinux-plank-themes-git
+# arcolinux-plank-themes-git
 #arcolinux-polybar-git
 #arcolinux-qt5-git
 # arcolinux-qt5-plasma-git
@@ -612,8 +612,8 @@ arcolinux-system-config-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares
-#arco-calamares-dev
+arco-calamares-next
+# arco-calamares-dev
 #arco-calamares-comp
 # arcolinux-system-installation-git
 
@@ -629,12 +629,16 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
+#kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
 plasma-framework
 hwinfo
 qt5-xmlpatterns
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 
 ###########################################################################
 #                                ARCOLINUX CONFIG CALAMARES
@@ -748,20 +752,26 @@ xfwm4
 ###########################################################################
 hefftor-calamares-config-plasma-git
 hefftor-system-installation-git
-hefftor-grub-theme-vimix-git
+# hefftor-grub-theme-vimix-git
 
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-hefftor-conky-git
+hefftor-conky-new-git
+hefftor-glava-config-git
+hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
 # hefftor-plank-git
-hefftor-lightdm-gtk-greeter
-hefftor-mac-theme-git
+hefftor-lightdm-slick-greeter-git
+# hefftor-mac-theme-git
+hefftor-juno-theme-git
 hefftor-tela-blue-icons-git
 hefftor-flat-remix-theme-git
+hefftor-jetbrainsmono-font-git
+hefftor-latte-dock-git
 hefftor-wallpapers-git
+hefftor-bibata-cursor-git
 hefftor-variety-git
 # hefftor-betterlockscreen-cache-git
 
@@ -781,7 +791,7 @@ hefftor-plasma-git
 hefftor-plasma-config-git
 hefftor-plasma-local-git
 hefftor-plasma-dconf-git
-hefftor-plasma-plank-git
+# hefftor-plasma-plank-git
 
 ###########################################################################
 #                         HEFFTOR APPLICATIONS
@@ -789,24 +799,28 @@ hefftor-plasma-plank-git
 # insync
 # betterlockscreen-git
 # zoom
+hefftor-welcome-app-git
+hefftor-skelapp-git
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-code
-discord
-telegram-desktop
+# code
+# discord
+# telegram-desktop
 npm
 nodejs
+latte-dock
 # filezilla
 # wps-office
 encfs
 strawberry
-krita
-gimp-plugin-gmic
+#krita
+#gimp-plugin-gmic
 gnome-calculator
 gcolor3
-
+tlp
+tlp-rdw
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################

@@ -16,24 +16,24 @@ desktop="plasma"
 
 #build.sh
 oldname1="iso_name=arcolinux-hefftor"
-newname1="iso_name=arcolinux-hefftor-$desktop"
+newname1="iso_name=arco-hefftor-$desktop"
 
 oldname2='iso_label="arcolinux-hefftor'
-newname2='iso_label="arcolinux-hefftor-'$desktop
+newname2='iso_label="arco-hefftor-'$desktop
 
 #os-release
 oldname3='NAME="ArcoLinux-Hefftor"'
-newname3='NAME=ArcoLinux-Hefftor-'$desktop
+newname3='NAME=Arco-Hefftor-'$desktop
 
 oldname4='ID=ArcoLinux-Hefftor'
-newname4='ID=ArcoLinux-Hefftor-'$desktop
+newname4='ID=Arco-Hefftor-'$desktop
 
 #lsb-release
 oldname5='DISTRIB_ID=ArcoLinux-Hefftor'
-newname5='DISTRIB_ID=ArcoLinux-Hefftor-'$desktop
+newname5='DISTRIB_ID=Arco-Hefftor-'$desktop
 
 oldname6='DISTRIB_DESCRIPTION="ArcoLinux-Hefftor"'
-newname6='DISTRIB_DESCRIPTION=ArcoLinux-Hefftor-'$desktop
+newname6='DISTRIB_DESCRIPTION=Arco-Hefftor-'$desktop
 
 #hostname
 oldname7='ArcoLinux-Hefftor'
@@ -178,7 +178,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arcolinux* $outFolder
+cp $buildFolder/archiso/out/arco* $outFolder
 
 echo
 echo "################################################################## "
