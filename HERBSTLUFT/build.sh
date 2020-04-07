@@ -13,7 +13,7 @@ outFolder="$HOME/ArcoHefftor-Out"
 #First letter of desktop small
 
 desktop="hlwm"
-
+xdesktop="herbstluftwm"
 #build.sh
 oldname1="iso_name=arcolinux-hefftor"
 newname1="iso_name=arcolinux-hefftor-$desktop"
@@ -42,6 +42,13 @@ newname7='ArcoLinux-Hefftor-'$desktop
 #hosts
 oldname8='ArcoLinux-Hefftor'
 newname8='ArcoLinux-Hefftor-'$desktop
+
+oldname9='user-session=xfce'
+newname9='user-session='$xdesktop
+
+#lightdm.conf autologin-session
+oldname10='#autologin-session='
+newname10='autologin-session='$xdesktop
 
 echo
 echo "################################################################## "
@@ -81,6 +88,8 @@ sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
 sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
+sed -i 's/'$oldname9'/'$newname9'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
+sed -i 's/'$oldname10'/'$newname10'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
 
 echo
 echo "################################################################## "

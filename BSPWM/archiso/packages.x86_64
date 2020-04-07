@@ -250,7 +250,7 @@ gmrun
 gsimplecal
 guvcview
 imagemagick
-inkscape
+# inkscape
 #libreoffice-fresh
 #lshw
 meld
@@ -376,7 +376,7 @@ ufw
 unace
 unrar
 unzip
-vnstat
+# vnstat
 w3m
 webkit2gtk
 wmctrl
@@ -476,7 +476,7 @@ yay-bin
 
 #arcolinux-arc-themes-git
 #arcolinux-arc-kde
-arcolinux-arc-themes-nico-git
+# arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
 # arcolinux-conky-collection-git
@@ -486,7 +486,7 @@ arcolinux-cron-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 # arcolinux-geany-git
-arcolinux-grub-theme-vimix-git
+# arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
 arcolinux-kvantum-git
@@ -494,7 +494,7 @@ arcolinux-kvantum-git
 #arcolinux-kvantum-plasma-git
 # arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
+# arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -503,8 +503,8 @@ arcolinux-local-xfce4-git
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
 # arcolinux-nitrogen-git
-arcolinux-oblogout
-arcolinux-oblogout-themes-git
+# arcolinux-oblogout
+# arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-git
 #arcolinux-obmenu-generator-minimal-git
 #arcolinux-obmenu-generator-xtended-git
@@ -696,15 +696,15 @@ adobe-source-han-sans-cn-fonts
 exo
 garcon
 thunar
-xfce4-appfinder
-xfce4-panel
+# xfce4-appfinder
+# xfce4-panel
 xfce4-power-manager
-xfce4-session
-xfce4-settings
-xfce4-terminal
-xfconf
-xfdesktop
-xfwm4
+# xfce4-session
+# xfce4-settings
+# xfce4-terminal
+# xfconf
+# xfdesktop
+# xfwm4
 #xfwm4-themes
 
 ###xfce4-goodies group content
@@ -747,13 +747,17 @@ xfce4-taskmanager
 #xfce4-panel-profiles
 gtk-engine-murrine
 
+###########################################################################
+#                           HEFFTOR MIRRORS
+###########################################################################
+hefftor-mirrors-git
 
 ###########################################################################
 #                           HEFFTOR CALAMARES
 ###########################################################################
 hefftor-calamares-config-bspwm-git
 hefftor-system-installation-git
-# hefftor-grub-theme-vimix-git
+hefftor-grub-theme-vimix-git
 
 ###########################################################################
 #                             HEFFTOR CONFIGS
@@ -776,6 +780,7 @@ hefftor-wallpapers-git
 hefftor-bibata-cursor-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
+hefflogout-git
 
 ###########################################################################
 #                             HEFFTOR XFCE
