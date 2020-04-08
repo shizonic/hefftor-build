@@ -12,8 +12,8 @@ outFolder="$HOME/ArcoHefftor-Out"
 #Let us change the name"
 #First letter of desktop small
 
-desktop="plasma"
-xdesktop="plasma"
+desktop="deepin"
+xdesktop="deepin"
 #build.sh
 oldname1="iso_name=arcolinux-hefftor"
 newname1="iso_name=arco-hefftor-$desktop"
@@ -23,17 +23,17 @@ newname2='iso_label="arco-hefftor-'$desktop
 
 #os-release
 oldname3='NAME="ArcoLinux-Hefftor"'
-newname3='NAME=Arco-Hefftor-'$desktop
+newname3='NAME=ArcoLinux-Hefftor-'$desktop
 
 oldname4='ID=ArcoLinux-Hefftor'
-newname4='ID=Arco-Hefftor-'$desktop
+newname4='ID=ArcoLinux-Hefftor-'$desktop
 
 #lsb-release
 oldname5='DISTRIB_ID=ArcoLinux-Hefftor'
-newname5='DISTRIB_ID=Arco-Hefftor-'$desktop
+newname5='DISTRIB_ID=ArcoLinux-Hefftor-'$desktop
 
 oldname6='DISTRIB_DESCRIPTION="ArcoLinux-Hefftor"'
-newname6='DISTRIB_DESCRIPTION=Arco-Hefftor-'$desktop
+newname6='DISTRIB_DESCRIPTION=ArcoLinux-Hefftor-'$desktop
 
 #hostname
 oldname7='ArcoLinux-Hefftor'
@@ -187,7 +187,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arco* $outFolder
+cp $buildFolder/archiso/out/arcolinux* $outFolder
 
 echo
 echo "################################################################## "
