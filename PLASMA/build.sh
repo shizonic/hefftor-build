@@ -5,8 +5,8 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-buildFolder="$HOME/ArcoHefftor-build"
-outFolder="$HOME/ArcoHefftor-Out"
+buildFolder="$HOME/Hefftor-build"
+outFolder="$HOME/Hefftor-Out"
 
 #Setting variables
 #Let us change the name"
@@ -15,33 +15,33 @@ outFolder="$HOME/ArcoHefftor-Out"
 desktop="plasma"
 xdesktop="plasma"
 #build.sh
-oldname1="iso_name=arcolinux-hefftor"
-newname1="iso_name=arco-hefftor-$desktop"
+oldname1="iso_name=hefftorlinux"
+newname1="iso_name=hefftorlinux-$desktop"
 
-oldname2='iso_label="arcolinux-hefftor'
-newname2='iso_label="arco-hefftor-'$desktop
+oldname2='iso_label="hefftorlinux'
+newname2='iso_label="hefftorlinux-'$desktop
 
 #os-release
-oldname3='NAME="ArcoLinux-Hefftor"'
-newname3='NAME=Arco-Hefftor-'$desktop
+oldname3='NAME="HefftorLinux"'
+newname3='NAME=HefftorLinux-'$desktop
 
-oldname4='ID=ArcoLinux-Hefftor'
-newname4='ID=Arco-Hefftor-'$desktop
+oldname4='ID=HefftorLinux'
+newname4='ID=HefftorLinux-'$desktop
 
 #lsb-release
-oldname5='DISTRIB_ID=ArcoLinux-Hefftor'
-newname5='DISTRIB_ID=Arco-Hefftor-'$desktop
+oldname5='DISTRIB_ID=HefftorLinux'
+newname5='DISTRIB_ID=HefftorLinux-'$desktop
 
-oldname6='DISTRIB_DESCRIPTION="ArcoLinux-Hefftor"'
-newname6='DISTRIB_DESCRIPTION=Arco-Hefftor-'$desktop
+oldname6='DISTRIB_DESCRIPTION="HefftorLinux"'
+newname6='DISTRIB_DESCRIPTION=HefftorLinux-'$desktop
 
 #hostname
-oldname7='ArcoLinux-Hefftor'
-newname7='ArcoLinux-Hefftor-'$desktop
+oldname7='HefftorLinux'
+newname7='HefftorLinux-'$desktop
 
 #hosts
-oldname8='ArcoLinux-Hefftor'
-newname8='ArcoLinux-Hefftor-'$desktop
+oldname8='HefftorLinux'
+newname8='HefftorLinux-'$desktop
 
 oldname9='user-session=xfce'
 newname9='user-session='$xdesktop
@@ -154,9 +154,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r ../work/* $buildFolder
 
-sudo chmod 750 ~/ArcoHefftor-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/ArcoHefftor-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/ArcoHefftor-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/Hefftor-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/Hefftor-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/Hefftor-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d ../work ] && rm -rf ../work
@@ -187,7 +187,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arco* $outFolder
+cp $buildFolder/archiso/out/hefftor* $outFolder
 
 echo
 echo "################################################################## "

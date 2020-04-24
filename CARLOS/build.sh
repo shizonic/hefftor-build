@@ -17,32 +17,32 @@ xdesktop="bspwm"
 
 #build.sh
 oldname1="iso_name=hefftorlinux"
-newname1="iso_name=hefftorlinux-$desktop"
+newname1="iso_name=hefftor-carlos-$desktop"
 
 oldname2='iso_label="hefftorlinux'
-newname2='iso_label="hefftorlinux-'$desktop
+newname2='iso_label="hefftor-carlos-'$desktop
 
 #os-release
 oldname3='NAME="HefftorLinux"'
-newname3='NAME=HefftorLinux-'$desktop
+newname3='NAME=HefftorLinux-Carlos-'$desktop
 
 oldname4='ID=HefftorLinux'
-newname4='ID=HefftorLinux-'$desktop
+newname4='ID=HefftorLinux-Carlos-'$desktop
 
 #lsb-release
 oldname5='DISTRIB_ID=HefftorLinux'
-newname5='DISTRIB_ID=HefftorLinux-'$desktop
+newname5='DISTRIB_ID=HefftorLinux-Carlos-'$desktop
 
 oldname6='DISTRIB_DESCRIPTION="HefftorLinux"'
-newname6='DISTRIB_DESCRIPTION=HefftorLinux-'$desktop
+newname6='DISTRIB_DESCRIPTION=HefftorLinux-Carlos-'$desktop
 
 #hostname
 oldname7='HefftorLinux'
-newname7='HefftorLinux-'$desktop
+newname7='HefftorLinux-Carlos-'$desktop
 
 #hosts
 oldname8='HefftorLinux'
-newname8='HefftorLinux-'$desktop
+newname8='HefftorLinux-Carlos-'$desktop
 
 oldname9='user-session=xfce'
 newname9='user-session='$xdesktop

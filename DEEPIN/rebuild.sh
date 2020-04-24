@@ -1,8 +1,8 @@
 #!/bin/bash
 #set -e
 
-buildFolder="$HOME/ArcoHefftor-build"
-outFolder="$HOME/ArcoHefftor-Out"
+buildFolder="$HOME/Hefftor-build"
+outFolder="$HOME/Hefftor-Out"
 
 cd $buildFolder/archiso
 
@@ -21,7 +21,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arcolinux* $outFolder
+cp $buildFolder/archiso/out/hefftor* $outFolder
 
 echo
 echo "################################################################## "
