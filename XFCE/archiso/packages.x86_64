@@ -831,7 +831,8 @@ hefftor-xfce4-panel-profiles-git
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
 betterlockscreen-git
-hefftor-skelapp-git
+hefftor-skel-gui-git
+hefftor-slick-greeter-gui-git
 hefftor-welcome-app-git
 hefftor-betterlockscreen-gui-git
 thermald

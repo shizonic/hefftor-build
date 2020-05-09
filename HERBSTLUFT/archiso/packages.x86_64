@@ -321,7 +321,7 @@ htop
 #hunspell-en
 #hyphen
 #hyphen-en
-grsync
+#grsync
 intltool
 iw
 jsoncpp
@@ -343,7 +343,7 @@ qt5ct
 qt5-styleplugins
 #qt5-tools
 qt5-webkit
-powertop
+#powertop
 reflector
 #redshift
 rofi
@@ -354,8 +354,8 @@ speedtest-cli
 # timeshift
 #tlp
 tree
-ufw
-# gufw
+#ufw
+#gufw
 unace
 unrar
 unzip
@@ -597,10 +597,10 @@ arcolinux-tweak-tool-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares-next
+# arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-#arco-calamares-next
+arco-calamares-next
 #arcolinux-system-installation-git
 #arcolinux-config-live-session-git
 #arcolinux-welcome-app-git
@@ -810,11 +810,12 @@ hefftor-polybar-git
 # hefftor-lightdm-gtk-greeter
 hefftor-lightdm-slick-greeter-git
 # hefftor-mac-theme-git
+hefftor-fonts-git
 hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
-hefftor-bibata-cursor-git
+#hefftor-bibata-cursor-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
 hefflogout-git
@@ -841,37 +842,30 @@ hefftor-herbstluftwm-dconf-git
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
 betterlockscreen-git
-hefftor-skelapp-git
+hefftor-skel-gui-git
+hefftor-slick-greeter-gui-git
 hefftor-polybar-switcher-git
 hefftor-welcome-app-git
 hefftor-twm-wallpaper-changer-git
 hefftor-betterlockscreen-gui-git
-thermald
+#thermald
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
 brave
-# code
-# discord
-# telegram-desktop
 npm
 nodejs
-# filezilla
 ncmpcpp
 mpd
 mpc
 glava
 dunst
-# wps-office
 encfs
-# strawberry
-# krita
-# gimp-plugin-gmic
 gnome-calculator
 gcolor3
-tlp
-tlp-rdw
+#tlp
+#tlp-rdw
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################

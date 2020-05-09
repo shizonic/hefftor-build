@@ -12,36 +12,36 @@ outFolder="$HOME/Hefftor-Out"
 #Let us change the name"
 #First letter of desktop small
 
-desktop="deepin"
-xdesktop="deepin"
+desktop="gnome"
+xdesktop="gnome"
 #build.sh
 oldname1="iso_name=hefftorlinux"
-newname1="iso_name=hefftorlinux-$desktop"
+newname1="iso_name=hefftylionos-$desktop"
 
 oldname2='iso_label="hefftorlinux'
-newname2='iso_label="hefftorlinux-'$desktop
+newname2='iso_label="hefftylionos-'$desktop
 
 #os-release
 oldname3='NAME="HefftorLinux"'
-newname3='NAME=HefftorLinux-'$desktop
+newname3='NAME=HefftyLionOS-'$desktop
 
 oldname4='ID=HefftorLinux'
-newname4='ID=HefftorLinux-'$desktop
+newname4='ID=HefftyLionOS-'$desktop
 
 #lsb-release
 oldname5='DISTRIB_ID=HefftorLinux'
-newname5='DISTRIB_ID=HefftorLinux-'$desktop
+newname5='DISTRIB_ID=HefftyLionOS-'$desktop
 
 oldname6='DISTRIB_DESCRIPTION="HefftorLinux"'
-newname6='DISTRIB_DESCRIPTION=HefftorLinux-'$desktop
+newname6='DISTRIB_DESCRIPTION=HefftyLionOS-'$desktop
 
 #hostname
 oldname7='HefftorLinux'
-newname7='HefftorLinux-'$desktop
+newname7='HefftyLionOS-'$desktop
 
 #hosts
 oldname8='HefftorLinux'
-newname8='HefftorLinux-'$desktop
+newname8='HefftyLionOS-'$desktop
 
 oldname9='user-session=xfce'
 newname9='user-session='$xdesktop
@@ -187,7 +187,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/hefftor* $outFolder
+cp $buildFolder/archiso/out/heffty* $outFolder
 
 echo
 echo "################################################################## "

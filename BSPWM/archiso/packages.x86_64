@@ -597,10 +597,10 @@ arcolinux-tweak-tool-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares-next
+# arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-#arco-calamares-next
+arco-calamares-next
 #arcolinux-system-installation-git
 #arcolinux-config-live-session-git
 #arcolinux-welcome-app-git
@@ -815,6 +815,7 @@ hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
+#hefftor-bibata-cursor-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
 hefflogout-git
@@ -843,6 +844,7 @@ hefftor-bspwm-local-git
 ###########################################################################
 betterlockscreen-git
 hefftor-skel-gui-git
+hefftor-slick-greeter-gui-git
 hefftor-polybar-switcher-git
 hefftor-welcome-app-git
 hefftor-twm-wallpaper-changer-git
