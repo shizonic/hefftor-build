@@ -800,7 +800,7 @@ hefftor-grub-theme-vimix-git
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-hefftor-conky-new-git
+hefftor-conky-elegant-git
 hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
@@ -815,6 +815,8 @@ hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
+hefftor-wallpapers-v2-git
+hefftor-wallpapers-v3-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
 
@@ -835,7 +837,7 @@ hefftor-skel-gui-git
 hefftor-slick-greeter-gui-git
 hefftor-welcome-app-git
 hefftor-betterlockscreen-gui-git
-thermald
+# thermald
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
@@ -852,10 +854,11 @@ mpd
 mpc
 glava
 encfs
+tldr
 # strawberry
 # krita
 # gimp-plugin-gmic
 gnome-calculator
 gcolor3
-tlp
-tlp-rdw
+# tlp
+# tlp-rdw

@@ -800,7 +800,7 @@ hefftor-system-installation-git
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-hefftor-conky-new-git
+hefftor-conky-elegant-git
 hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
@@ -817,6 +817,8 @@ hefftor-flat-remix-theme-git
 hefftor-jetbrainsmono-font-git
 hefftor-latte-dock-git
 hefftor-wallpapers-git
+hefftor-wallpapers-v2-git
+hefftor-wallpapers-v3-git
 #hefftor-bibata-cursor-git
 hefftor-variety-git
 # hefftor-betterlockscreen-cache-git
@@ -845,6 +847,7 @@ hefftor-plasma-dconf-git
 # insync
 # betterlockscreen-git
 # zoom
+hefftor-slick-greeter-gui-git
 hefftor-welcome-app-git
 hefftor-skel-gui-git
 
@@ -858,10 +861,14 @@ brave
 npm
 nodejs
 latte-dock
+mpd
+mpc
+ncmpcpp
 # filezilla
 # wps-office
 encfs
 strawberry
+tldr
 #krita
 #gimp-plugin-gmic
 gnome-calculator

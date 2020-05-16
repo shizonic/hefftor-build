@@ -246,7 +246,7 @@ imagemagick
 #inkscape
 #libreoffice-fresh
 #lshw
-#meld
+meld
 #nitrogen
 numlockx
 #pragha
@@ -330,7 +330,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-oh-my-zsh-git
+# oh-my-zsh-git
 p7zip
 #plank
 playerctl
@@ -351,7 +351,7 @@ rxvt-unicode
 #simple-scan
 #shotwell
 speedtest-cli
-#timeshift
+timeshift
 #tlp
 tree
 #ufw
@@ -367,7 +367,7 @@ xapps
 xdo
 xdotool
 xdg-desktop-portal-gtk
-#youtube-dl
+youtube-dl
 zenity
 # zsh
 # zsh-completions
@@ -429,6 +429,7 @@ pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
 python-pyparted
+python-pip
 #python-pywal
 #screenkey-git
 #sublime-text-dev
@@ -815,6 +816,8 @@ hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
+hefftor-wallpapers-v2-git
+hefftor-wallpapers-v3-git
 hefftor-wallpapers-4k-git
 #hefftor-bibata-cursor-git
 hefftor-variety-git
@@ -857,6 +860,10 @@ nodejs
 latte-dock
 # filezilla
 # wps-office
+mpd
+mpc
+ncmpcpp
+glava
 encfs
 strawberry
 #krita
@@ -864,6 +871,8 @@ strawberry
 gnome-calculator
 gcolor3
 task
+vlc
+tldr
 # tlp
 # tlp-rdw
 ###########################################################################
@@ -873,8 +882,9 @@ task
 gnome
 #gnome-extra
 nautilus-image-converter
-gnome-mplayer
-gnome-multi-writer
+# gnome-mplayer
+# gnome-multi-writer
+gnome-tweaks
 gnome-pie
 chrome-gnome-shell
 libappindicator-gtk3

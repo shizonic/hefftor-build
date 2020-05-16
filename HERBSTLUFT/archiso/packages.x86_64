@@ -800,7 +800,7 @@ hefftor-grub-theme-vimix-git
 #                             HEFFTOR CONFIGS
 ###########################################################################
 # hefftor-conky-git
-hefftor-conky-twm-new-git
+hefftor-conky-elegant-twm-git
 hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
@@ -815,6 +815,8 @@ hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
+hefftor-wallpapers-v2-git
+hefftor-wallpapers-v3-git
 #hefftor-bibata-cursor-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
@@ -832,6 +834,7 @@ hefftor-xfce-local-git
 ###########################################################################
 #                             HEFFTOR HLWM
 ###########################################################################
+hefftor-herbstluftwm-git
 hefftor-herbstluftwm-config-git
 hefftor-herbstluftwm-local-git
 hefftor-herbstluftwm-dconf-git
@@ -864,6 +867,7 @@ dunst
 encfs
 gnome-calculator
 gcolor3
+tldr
 #tlp
 #tlp-rdw
 ###########################################################################

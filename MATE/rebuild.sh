@@ -21,7 +21,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/hefftorlinux* $outFolder
+cp $buildFolder/archiso/out/heffty* $outFolder
 
 echo
 echo "################################################################## "

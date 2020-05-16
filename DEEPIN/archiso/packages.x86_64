@@ -811,6 +811,8 @@ hefftor-jetbrainsmono-font-git
 hefftor-tela-icons-git
 #hefftor-bibata-cursor-git
 hefftor-wallpapers-git
+hefftor-wallpapers-v2-git
+hefftor-wallpapers-v3-git
 #hefftor-variety-git
 #hefftor-betterlockscreen-cache-git
 
@@ -848,6 +850,7 @@ glava
 npm
 nodejs
 encfs
+tldr
 # strawberry
 # krita
 # gimp-plugin-gmic
