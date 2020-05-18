@@ -1,5 +1,5 @@
 #####################################################################
-# #                             PACKAGES AVAILABLE
+# #                            PACKAGES AVAILABLE
 #####################################################################
 
 ###archiso
@@ -223,7 +223,7 @@ poppler-glib
 poppler-qt5
 
 ######################################################################### 
-#                   SOFTWARE FROM ARCH LINUX REPOSITORIES
+#                  SOFTWARE FROM ARCH LINUX REPOSITORIES
 ######################################################################### 
 
 ###applications
@@ -234,7 +234,7 @@ poppler-qt5
 dmenu
 # evolution
 feh
-#  firefox
+# firefox
 # flashplugin
 # galculator
 # geany
@@ -253,7 +253,7 @@ numlockx
 # qbittorrent
 scrot
 # simplescreenrecorder
-#  termite
+# termite
 variety
 # vlc
 
@@ -301,7 +301,7 @@ dconf-editor
 # dmidecode
 # evince
 expac
-#  file-roller
+# file-roller
 # filezilla
 git
 gksu
@@ -375,7 +375,7 @@ zenity
 # zsh-syntax-highlighting
 
 ###########################################################################
-#                            ARCOLINUX_REPOS
+#                           ARCOLINUX_REPOS
 ###########################################################################
 
 ###applications
@@ -445,7 +445,7 @@ yad
 yay-bin
 
 ###########################################################################
-#                                GAMES
+#                               GAMES
 ###########################################################################
 
 # arcolinux-meta-steam
@@ -454,7 +454,7 @@ yay-bin
 # xonotic
 
 ###########################################################################
-#                            ARCOLINUX FOLDER
+#                           ARCOLINUX FOLDER
 ###########################################################################
 
 # arcolinux-arc-kde
@@ -519,7 +519,7 @@ arcolinux-tweak-tool-git
 # arcolinux-zsh-git
 
 ###########################################################################
-#                            ARCOLINUX DESKTOP FOLDER
+#                           ARCOLINUX DESKTOP FOLDER
 ###########################################################################
 
 # arcolinux-awesome-git
@@ -546,7 +546,7 @@ arcolinux-tweak-tool-git
 # arcolinux-xmonad-xmobar-git
 
 ###########################################################################
-#                            ARCOLINUX CONFIG FOLDER
+#                           ARCOLINUX CONFIG FOLDER
 ###########################################################################
 
 # arcolinux-config-awesome-git
@@ -572,7 +572,7 @@ arcolinux-tweak-tool-git
 # arcolinux-config-xtended-git
 
 ###########################################################################
-#                            ARCOLINUX DCONF FOLDER
+#                           ARCOLINUX DCONF FOLDER
 ###########################################################################
 
 # arcolinux-awesome-dconf-git
@@ -597,7 +597,7 @@ arcolinux-tweak-tool-git
 # arcolinux-xtended-dconf-git
 
 ###########################################################################
-#                                 ARCOLINUX CALAMARES
+#                                ARCOLINUX CALAMARES
 ###########################################################################
 
 # arco-calamares-next
@@ -609,7 +609,7 @@ arcolinux-tweak-tool-git
 # arcolinux-welcome-app-git
 
 ###########################################################################
-#                                 CALAMARES DEPENDENCIES
+#                                CALAMARES DEPENDENCIES
 ###########################################################################
 
 ckbcomp
@@ -632,7 +632,7 @@ adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 
 ###########################################################################
-#                                 ARCOLINUX CONFIG CALAMARES
+#                                ARCOLINUX CONFIG CALAMARES
 ###########################################################################
 
 # arcob-calamares-config-awesome-git
@@ -664,7 +664,7 @@ adobe-source-han-sans-cn-fonts
 # arcod-calamares-config-next-git
 
 ###########################################################################
-#                                 DISPLAY MANAGER
+#                                DISPLAY MANAGER
 ###########################################################################
 
 ###lightdm
@@ -672,13 +672,13 @@ accountsservice
 lightdm
 
 ###########################################################################
-#                          PICOM OR COMPTON
+#                         PICOM OR COMPTON
 ###########################################################################
 
 # picom
 
 ###########################################################################
-#                          GENERAL DESKTOP RELATED
+#                         GENERAL DESKTOP RELATED
 ###########################################################################
 
 # mugshot
@@ -686,11 +686,11 @@ lightdm
 # volumeicon
 
 ###########################################################################
-#                          ARCOLINUX ISO SPECIFIC
+#                         ARCOLINUX ISO SPECIFIC
 ###########################################################################
 
 ###########################################################################
-#                                  i3
+#                                 i3
 ###########################################################################
 
 ###i3wm
@@ -700,7 +700,7 @@ lightdm
 # autotiling
 
 ###########################################################################
-#                                OPENBOX
+#                               OPENBOX
 ###########################################################################
 
 ###openbox
@@ -723,7 +723,7 @@ lightdm
 # lxrandr
 
 ###########################################################################
-#                                 XFCE
+#                                XFCE
 ###########################################################################
 
 ### xfce4 group content
@@ -787,12 +787,12 @@ lightdm
 # xfce4-panel-profiles
 
 ###########################################################################
-#                            HEFFTOR MIRRORS
+#                           HEFFTOR MIRRORS
 ###########################################################################
 hefftor-mirrors-git
 
 ###########################################################################
-#                            HEFFTOR CALAMARES
+#                           HEFFTOR CALAMARES
 ###########################################################################
 hefftor-calamares
 hefftor-calamares-config-mate-git
@@ -800,7 +800,7 @@ hefftor-system-installation-git
 hefftor-grub-theme-vimix-git
 
 ###########################################################################
-#                              HEFFTOR CONFIGS
+#                             HEFFTOR CONFIGS
 ###########################################################################
 hefftor-bin-git
 hefftor-conky-elegant-git
@@ -826,8 +826,17 @@ hefftor-variety-git
 # hefftor-betterlockscreen-cache-git
 brisk-menu-git
 
+
 ###########################################################################
-#                              HEFFTOR XFCE
+#                             HEFFTOR MATE
+###########################################################################
+hefftor-mate-git
+hefftor-mate-config-git
+hefftor-mate-local-git
+hefftor-mate-dconf-git
+
+###########################################################################
+#                             HEFFTOR XFCE
 ###########################################################################
 hefftor-xfce-git
 # hefftor-xfce-config-git
@@ -836,7 +845,7 @@ hefftor-xfce-git
 # hefftor-xfce4-panel-profiles-git
 
 ###########################################################################
-#                          HEFFTOR APPLICATIONS
+#                         HEFFTOR APPLICATIONS
 ###########################################################################
 # insync
 # betterlockscreen-git
@@ -845,7 +854,7 @@ hefftor-welcome-app-git
 hefftor-skel-gui-git
 
 ###########################################################################
-#                            EXTRA APPLICATIONS
+#                           EXTRA APPLICATIONS
 ###########################################################################
 brave
 # code
@@ -872,15 +881,11 @@ tldr
 # tlp
 # tlp-rdw
 ###########################################################################
-#                                 ISO SPECIFIC
+#                                ISO SPECIFIC
 ###########################################################################
 
 mate
 mate-extra
 mate-tweak
-hefftor-mate-git
-hefftor-mate-config-git
-hefftor-mate-local-git
-hefftor-mate-dconf-git
 # pasystray
 # paprefs
