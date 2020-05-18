@@ -330,7 +330,7 @@ laptop-detect
 lsb-release
 mlocate
 # nomacs
-#  oh-my-zsh-git
+# oh-my-zsh-git
 p7zip
 # plank
 playerctl
@@ -369,9 +369,9 @@ xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-#  zsh
-#  zsh-completions
-#  zsh-syntax-highlighting
+# zsh
+# zsh-completions
+# zsh-syntax-highlighting
 
 ###########################################################################
 #                            ARCOLINUX_REPOS
@@ -726,7 +726,7 @@ lightdm
 ###########################################################################
 
 ### xfce4 group content
-#  https://www.archlinux.org/groups/x86_64/xfce4/
+# https://www.archlinux.org/groups/x86_64/xfce4/
 # exo
 # garcon
 # thunar
@@ -744,7 +744,7 @@ lightdm
 # xfwm4-themes
 
 ### xfce4-goodies group content
-#  https://www.archlinux.org/groups/x86_64/xfce4-goodies/
+# https://www.archlinux.org/groups/x86_64/xfce4-goodies/
 # mousepad
 # orage
 # parole
@@ -852,7 +852,7 @@ brave
 # telegram-desktop
 npm
 nodejs
-latte-dock
+# latte-dock
 # filezilla
 # wps-office
 mpd
