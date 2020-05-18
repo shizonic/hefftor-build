@@ -793,7 +793,7 @@ hefftor-mirrors-git
 ###########################################################################
 #                           HEFFTOR CALAMARES
 ###########################################################################
-hefftor-calamares-config-bspwm-git
+hefftor-calamares-config-i3-git
 hefftor-system-installation-git
 hefftor-grub-theme-vimix-git
 
