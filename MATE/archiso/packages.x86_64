@@ -314,6 +314,7 @@ gnome-keyring
 gparted
 # gpick
 # gtop
+gtk2-perl
 hardinfo
 # hddtemp
 htop
