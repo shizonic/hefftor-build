@@ -290,7 +290,7 @@ kvantum-qt5
 kvantum-theme-arc
 
 ###utilities
-arandr
+# arandr
 asciinema
 bash-completion
 # baobab
@@ -865,7 +865,7 @@ strawberry
 # krita
 # gimp-plugin-gmic
 # gnome-calculator
-gcolor3
+# gcolor3
 task
 vlc
 tldr
