@@ -90,7 +90,9 @@ sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
 sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 sed -i 's/'$oldname9'/'$newname9'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
 sed -i 's/'$oldname10'/'$newname10'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
+sed -Ei 's~(mkarchiso.+/packages.x86_64)(.+$)~\1 | xargs\2~1' ../work/archiso/build.sh
 
+sed -i 's/systemctl enable update-mirrors\.service/# &/' ../work/archiso/airootfs/root/customize_airootfs.sh
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 4 : Checking if archiso is installed";tput sgr0
