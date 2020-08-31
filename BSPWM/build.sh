@@ -26,24 +26,11 @@ newname2='iso_label="hefftorlinux-'$desktop
 oldname3='NAME="HefftorLinux"'
 newname3='NAME=HefftorLinux-'$desktop
 
-oldname4='ID=HefftorLinux'
-newname4='ID=HefftorLinux-'$desktop
-
-#lsb-release
-oldname5='DISTRIB_ID=HefftorLinux'
-newname5='DISTRIB_ID=HefftorLinux-'$desktop
-
-oldname6='DISTRIB_DESCRIPTION="HefftorLinux"'
-newname6='DISTRIB_DESCRIPTION=HefftorLinux-'$desktop
-
 #hostname
 oldname7='HefftorLinux'
 newname7='HefftorLinux-'$desktop
 
-#hosts
-oldname8='HefftorLinux'
-newname8='HefftorLinux-'$desktop
-
+#lightdm.conf user-session
 oldname9='user-session=xfce'
 newname9='user-session='$xdesktop
 
@@ -60,6 +47,7 @@ echo "Deleting the work folder if one exists"
 [ -d ../work ] && rm -rf ../work
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
+
 echo "Git cloning files and folder to work folder"
 git clone https://github.com/bradheff/hefftor-iso ../work
 
@@ -83,12 +71,8 @@ echo "Renaming to "$newname2
 echo
 sed -i 's/'$oldname1'/'$newname1'/g' ../work/archiso/build.sh
 sed -i 's/'$oldname2'/'$newname2'/g' ../work/archiso/build.sh
-sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/os-release
-sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
-sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
-sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
+sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/dev-rel
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
-sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 sed -i 's/'$oldname9'/'$newname9'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
 sed -i 's/'$oldname10'/'$newname10'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
 
@@ -145,6 +129,7 @@ else
 
 fi
 
+
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 5 : Moving files to build folder";tput sgr0
@@ -155,15 +140,16 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r ../work/* $buildFolder
 
-sudo chmod 750 ~/Hefftor-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/Hefftor-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/Hefftor-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/arcolinuxb-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/arcolinuxb-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/arcolinuxb-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 $buildFolder/archiso/airootfs/root
 
-echo "Deleting the work folder if one exists - clean up"
-[ -d ../work ] && rm -rf ../work
+echo "adding time to /etc/dev-rel"
+date_build=$(date -d now)
+sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
 
 cd $buildFolder/archiso
-
 
 echo
 echo "################################################################## "
