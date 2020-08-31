@@ -597,10 +597,10 @@ arcolinux-tweak-tool-git
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-# arco-calamares
+arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-arco-calamares-next
+# arco-calamares-next
 #arcolinux-system-installation-git
 #arcolinux-config-live-session-git
 #arcolinux-welcome-app-git
