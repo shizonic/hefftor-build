@@ -76,7 +76,7 @@ parted
 partimage
 ppp
 pptpclient
-refind-efi
+reflector
 reiserfsprogs
 rp-pppoe
 rsync
