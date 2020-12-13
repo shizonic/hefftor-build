@@ -25,7 +25,7 @@ dosfstools
 edk2-shell
 efibootmgr
 ethtool
-exfat-utils
+exfatprogs
 f2fs-tools
 fsarchiver
 gnu-netcat
@@ -154,7 +154,7 @@ base
 base-devel
 
 ###virtual box or vmware
-#open-vm-tools  this made it lag
+open-vm-tools
 #virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
@@ -181,7 +181,7 @@ pulseaudio-alsa
 pavucontrol
 
 ###bluetooth
-blueberry
+blueman
 bluez
 bluez-libs
 bluez-utils
@@ -265,12 +265,12 @@ meld
 #nitrogen
 numlockx
 #pragha
-#qbittorrent
+qbittorrent
 scrot
 #simplescreenrecorder
 # termite
 variety
-#vlc
+vlc
 
 ###conky
 jq
@@ -284,12 +284,12 @@ adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 noto-fonts
 #terminus-font
-#ttf-bitstream-vera
+ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-hack
-#ttf-inconsolata
-#ttf-liberation
+ttf-inconsolata
+ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
 
@@ -302,6 +302,7 @@ ttf-ubuntu-font-family
 #adapta-gtk-theme
 arc-gtk-theme
 kvantum-qt5
+#openbox-arc-git
 
 ###utilities
 arandr
@@ -426,6 +427,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
+appstream
 archiso
 conky-lua-archers
 downgrade
@@ -468,6 +470,7 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
+#arcolinux-arc-themes-git
 #arcolinux-arc-kde
 #arcolinux-arc-themes-nico-git
 arcolinux-bin-git
@@ -516,6 +519,7 @@ arcolinux-pipemenus-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
+#arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 # arcolinux-termite-themes-git
 #arcolinux-tint2-git
@@ -630,7 +634,7 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
-#kpmcore-git
+#arcolinux-kpmcore
 boost-libs
 libpwquality
 squashfs-tools

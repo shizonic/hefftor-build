@@ -25,7 +25,7 @@ dosfstools
 edk2-shell
 efibootmgr
 ethtool
-exfat-utils
+exfatprogs
 f2fs-tools
 fsarchiver
 gnu-netcat
@@ -154,7 +154,7 @@ base
 base-devel
 
 ###virtual box or vmware
-#open-vm-tools  this made it lag
+open-vm-tools
 #virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
@@ -181,7 +181,7 @@ pulseaudio-alsa
 pavucontrol
 
 ###bluetooth
-blueberry
+blueman
 bluez
 bluez-libs
 bluez-utils
@@ -255,12 +255,12 @@ feh
 #geany
 #gimp
 gmrun
-gsimplecal
+#gsimplecal
 guvcview
 imagemagick
 #inkscape
 #libreoffice-fresh
-lshw
+#lshw
 meld
 # nitrogen
 numlockx
@@ -302,6 +302,7 @@ ttf-ubuntu-font-family
 #adapta-gtk-theme
 arc-gtk-theme
 kvantum-qt5
+#openbox-arc-git
 
 ###utilities
 arandr
@@ -335,7 +336,7 @@ htop
 #hunspell-en
 #hyphen
 #hyphen-en
-#grsync
+grsync
 intltool
 iw
 jsoncpp
@@ -364,11 +365,11 @@ rxvt-unicode
 # simple-scan
 #shotwell
 speedtest-cli
-timeshift
+# timeshift
 #tlp
 tree
-#ufw
-#gufw
+ufw
+# gufw
 unace
 unrar
 unzip
@@ -426,6 +427,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
+appstream
 archiso
 conky-lua-archers
 downgrade
@@ -467,6 +469,7 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
+#arcolinux-arc-themes-git
 #arcolinux-arc-kde
 # arcolinux-arc-themes-nico-git
 arcolinux-bin-git
@@ -484,7 +487,8 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-# arcolinux-lightdm-gtk-greeter
+#arcolinux-kvantum-theme-arc-git
+#arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
 # arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
@@ -515,6 +519,7 @@ arcolinux-pipemenus-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git
 arcolinux-system-config-git
+#arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 # arcolinux-termite-themes-git
 #arcolinux-tint2-git
@@ -612,7 +617,7 @@ arcolinux-tweak-tool-git
 arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-# arco-calamares-next
+#arco-calamares-next
 #arcolinux-system-installation-git
 #arcolinux-config-live-session-git
 #arcolinux-welcome-app-git
@@ -629,7 +634,7 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
-#kpmcore-git
+#arcolinux-kpmcore
 boost-libs
 libpwquality
 squashfs-tools
@@ -706,6 +711,7 @@ volumeicon
 #i3status
 #i3blocks
 #i3-gaps
+#autotiling
 
 ###########################################################################
 #                               OPENBOX
@@ -738,12 +744,11 @@ lxappearance
 # https://www.archlinux.org/groups/x86_64/xfce4/
 exo
 garcon
-# thunar
-#thunar-volman
-#tumbler
-pcmanfm-gtk3
-# xfce4-appfinder
-# xfce4-panel
+thunar
+thunar-volman
+tumbler
+#xfce4-appfinder
+#xfce4-panel
 xfce4-power-manager
 # xfce4-session
 # xfce4-settings
@@ -759,8 +764,8 @@ xfce4-power-manager
 #orage
 #parole
 ristretto
-#thunar-archive-plugin
-#thunar-media-tags-plugin
+thunar-archive-plugin
+thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
 #xfce4-battery-plugin

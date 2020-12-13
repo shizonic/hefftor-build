@@ -25,7 +25,7 @@ dosfstools
 edk2-shell
 efibootmgr
 ethtool
-exfat-utils
+exfatprogs
 f2fs-tools
 fsarchiver
 gnu-netcat
@@ -154,7 +154,7 @@ base
 base-devel
 
 ###virtual box or vmware
-#open-vm-tools  this made it lag
+open-vm-tools
 #virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
@@ -181,7 +181,7 @@ pulseaudio-alsa
 pavucontrol
 
 ###bluetooth
-blueberry
+blueman
 bluez
 bluez-libs
 bluez-utils
@@ -302,6 +302,7 @@ ttf-ubuntu-font-family
 #adapta-gtk-theme
 arc-gtk-theme
 kvantum-qt5
+#openbox-arc-git
 
 ###utilities
 arandr
@@ -311,7 +312,7 @@ baobab
 catfish
 cronie
 dconf-editor
-#dex
+dex
 dmidecode
 evince
 expac
@@ -426,6 +427,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
+appstream
 archiso
 conky-lua-archers
 downgrade
@@ -485,7 +487,8 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-# arcolinux-lightdm-gtk-greeter
+arcolinux-kvantum-theme-arc-git
+#arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
 # arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
@@ -516,6 +519,7 @@ arcolinux-plank-themes-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git
 arcolinux-system-config-git
+#arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 # arcolinux-termite-themes-git
 #arcolinux-tint2-git
@@ -630,7 +634,7 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
-#kpmcore-git
+#arcolinux-kpmcore
 boost-libs
 libpwquality
 squashfs-tools
@@ -685,15 +689,15 @@ lightdm
 #                         PICOM OR COMPTON
 ###########################################################################
 
-picom
+#picom
 
 ###########################################################################
 #                         GENERAL DESKTOP RELATED
 ###########################################################################
 
-#mugshot
-#menulibre
-volumeicon
+mugshot
+menulibre
+#volumeicon
 
 ###########################################################################
 #                         ARCOLINUX ISO SPECIFIC
@@ -707,6 +711,7 @@ volumeicon
 #i3status
 #i3blocks
 #i3-gaps
+#autotiling
 
 ###########################################################################
 #                               OPENBOX
@@ -739,12 +744,11 @@ volumeicon
 # https://www.archlinux.org/groups/x86_64/xfce4/
 exo
 garcon
-# thunar
-#thunar-volman
-#tumbler
-pcmanfm-gtk3
-# xfce4-appfinder
-# xfce4-panel
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
 xfce4-power-manager
 xfce4-session
 xfce4-settings
@@ -760,8 +764,8 @@ xfwm4-themes
 #orage
 #parole
 ristretto
-#thunar-archive-plugin
-#thunar-media-tags-plugin
+thunar-archive-plugin
+thunar-media-tags-plugin
 xfburn
 #xfce4-artwork
 xfce4-battery-plugin
