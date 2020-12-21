@@ -355,7 +355,7 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+# qt5-styleplugins
 #qt5-tools
 qt5-webkit
 #powertop
@@ -415,8 +415,8 @@ ttf-ms-fonts
 #numix-icon-theme-git
 #numix-circle-icon-theme-git
 #paper-icon-theme
-sardi-icons
-surfn-icons-git
+# sardi-icons
+# surfn-icons-git
 #surfn-arc-breeze-icons-git
 #zafiro-icon-theme
 
@@ -436,7 +436,7 @@ downgrade
 grub-customizer
 hardcode-fixer-git
 inxi
-mintstick-git
+# mintstick-git
 neofetch
 #numix-gtk-theme-git
 pamac-aur
@@ -485,7 +485,7 @@ arcolinux-fonts-git
 # arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
-arcolinux-kvantum-git
+# arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
 # arcolinux-lightdm-gtk-greeter
@@ -744,9 +744,9 @@ lightdm
 # https://www.archlinux.org/groups/x86_64/xfce4/
 #exo
 #garcon
-thunar
-thunar-volman
-tumbler
+# thunar
+# thunar-volman
+# tumbler
 #xfce4-appfinder
 #xfce4-panel
 #xfce4-power-manager
@@ -764,8 +764,8 @@ tumbler
 #orage
 #parole
 #ristretto
-thunar-archive-plugin
-thunar-media-tags-plugin
+# thunar-archive-plugin
+# thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
 #xfce4-battery-plugin
@@ -817,10 +817,11 @@ hefftor-grub-theme-vimix-git
 #                             HEFFTOR CONFIGS
 ###########################################################################
 hefftor-conky-elegant-git
-hefftor-glava-config-git
+# hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
+betterlockscreen-git
 #hefftor-plank-git
 #hefftor-xfce-rofi-git
 # hefftor-lightdm-gtk-greeter
@@ -831,12 +832,12 @@ hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
-hefftor-wallpapers-v2-git
-hefftor-wallpapers-v3-git
-hefftor-wallpapers-4k-git
+# hefftor-wallpapers-v2-git
+# hefftor-wallpapers-v3-git
+# hefftor-wallpapers-4k-git
 #hefftor-bibata-cursor-git
 hefftor-variety-git
-# hefftor-betterlockscreen-cache-git
+hefftor-betterlockscreen-cache-git
 
 ###########################################################################
 #                             HEFFTOR XFCE
@@ -862,7 +863,7 @@ hefftor-gnome-dconf-git
 # zoom
 hefftor-welcome-app-git
 hefftor-skel-gui-git
-
+hefftor-betterlockscreen-gui-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
@@ -872,13 +873,13 @@ brave
 # telegram-desktop
 npm
 nodejs
-latte-dock
+# latte-dock
 # filezilla
 # wps-office
 mpd
 mpc
 ncmpcpp
-glava
+# glava
 encfs
 strawberry
 #krita

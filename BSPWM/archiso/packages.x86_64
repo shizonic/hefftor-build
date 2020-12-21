@@ -301,7 +301,7 @@ ttf-ubuntu-font-family
 ###themes
 #adapta-gtk-theme
 arc-gtk-theme
-kvantum-qt5
+# kvantum-qt5
 #openbox-arc-git
 
 ###utilities
@@ -355,7 +355,7 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+# qt5-styleplugins
 #qt5-tools
 qt5-webkit
 #powertop
@@ -484,7 +484,7 @@ arcolinux-fonts-git
 # arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
-arcolinux-kvantum-git
+# arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
 #arcolinux-kvantum-theme-arc-git
@@ -879,7 +879,7 @@ nodejs
 ncmpcpp
 mpd
 mpc
-glava
+# glava
 dunst
 encfs
 gnome-calculator

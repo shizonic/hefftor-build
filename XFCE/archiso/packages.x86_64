@@ -246,7 +246,7 @@ poppler-qt5
 #chromium
 #darktable
 #deadbeef
-dmenu
+# dmenu
 #evolution
 feh
 # firefox
@@ -301,7 +301,7 @@ ttf-ubuntu-font-family
 ###themes
 #adapta-gtk-theme
 arc-gtk-theme
-kvantum-qt5
+# kvantum-qt5
 #openbox-arc-git
 
 ###utilities
@@ -355,7 +355,7 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+# qt5-styleplugins
 #qt5-tools
 qt5-webkit
 #powertop
@@ -484,10 +484,10 @@ arcolinux-fonts-git
 # arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
-arcolinux-kvantum-git
+# arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-arcolinux-kvantum-theme-arc-git
+# arcolinux-kvantum-theme-arc-git
 #arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
 # arcolinux-lightdm-gtk-greeter-settings
@@ -766,7 +766,7 @@ xfwm4-themes
 ristretto
 thunar-archive-plugin
 thunar-media-tags-plugin
-xfburn
+# xfburn
 #xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
@@ -817,7 +817,7 @@ hefftor-grub-theme-vimix-git
 #                             HEFFTOR CONFIGS
 ###########################################################################
 hefftor-conky-elegant-git
-hefftor-glava-config-git
+# hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
@@ -868,7 +868,7 @@ nodejs
 ncmpcpp
 mpd
 mpc
-glava
+# glava
 encfs
 tldr
 # strawberry

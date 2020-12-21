@@ -354,13 +354,13 @@ python2-dbus
 python2-xdg
 #qt4
 #qt5ct
-qt5-styleplugins
+# qt5-styleplugins
 #qt5-tools
 #qt5-webkit
 #powertop
 #redshift
 #rofi
-rxvt-unicode
+# rxvt-unicode
 # simple-scan
 #shotwell
 speedtest-cli
@@ -448,8 +448,8 @@ sublime-text-dev
 the_platinum_searcher-bin
 tmux
 trizen
-urxvt-perls
-urxvt-resize-font-git
+# urxvt-perls
+# urxvt-resize-font-git
 wttr
 yad
 yakuake
@@ -469,7 +469,7 @@ yay-bin
 ###########################################################################
 
 arcolinux-arc-kde
-arcolinux-arc-themes-nico-git
+# arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
 # arcolinux-conky-collection-git
@@ -740,11 +740,11 @@ lightdm
 
 ### xfce4 group content
 # https://www.archlinux.org/groups/x86_64/xfce4/
-exo
-garcon
-thunar
-thunar-volman
-tumbler
+# exo
+# garcon
+# thunar
+# thunar-volman
+# tumbler
 #pcmanfm-gtk3
 # xfce4-appfinder
 # xfce4-panel
@@ -763,8 +763,8 @@ tumbler
 #orage
 #parole
 ristretto
-thunar-archive-plugin
-thunar-media-tags-plugin
+# thunar-archive-plugin
+# thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
 #xfce4-battery-plugin
@@ -897,10 +897,13 @@ plasma
 #adapta-kde
 #arc-kde
 #materia-kde
+dolphin
 partitionmanager
 ktorrent
 kdeconnect
 #numix-kde-theme-git
 packagekit-qt5
 systemd-kcm
-kde-applications-meta
+# kde-applications-meta
+kde-system-meta
+kde-utilities-meta

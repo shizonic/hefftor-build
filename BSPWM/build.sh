@@ -29,7 +29,7 @@ echo
 	desktop="bspwm"
 	lightdmDesktop="bspwm"
 
-	hefftorlinuxversion='v21.01.01'
+	hefftorlinuxversion='v2021-01-2'
 
 	isoLabel='hefftorlinux-'$desktop'-'$hefftorlinuxversion'-x86_64.iso'
 
@@ -241,6 +241,7 @@ echo "- Building the iso - this can take a while - be patient"
 tput sgr0
 echo "################################################################## "
 echo
+echo "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
 
 	cd $buildFolder/archiso/
 	sudo mkarchiso -v -w $buildFolder $buildFolder/archiso/
