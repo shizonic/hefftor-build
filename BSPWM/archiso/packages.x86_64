@@ -415,8 +415,8 @@ ttf-ms-fonts
 # numix-icon-theme-git
 # numix-circle-icon-theme-git
 # paper-icon-theme
-sardi-icons
-surfn-icons-git
+# sardi-icons
+# surfn-icons-git
 #surfn-arc-breeze-icons-git
 # zafiro-icon-theme
 
@@ -518,7 +518,7 @@ arcolinux-pipemenus-git
 # arcolinux-root-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git
-arcolinux-system-config-git
+# arcolinux-system-config-git
 #arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 # arcolinux-termite-themes-git
@@ -817,6 +817,7 @@ hefftor-grub-theme-vimix-git
 #                             HEFFTOR CONFIGS
 ###########################################################################
 # hefftor-conky-git
+hefftor-system-config-git
 hefftor-conky-elegant-twm-git
 hefftor-glava-config-git
 hefftor-mpd-config-git
