@@ -613,8 +613,8 @@ arcolinux-tweak-tool-git
 ###########################################################################
 #                                ARCOLINUX CALAMARES
 ###########################################################################
-
-arco-calamares
+hefftor-calamares
+# arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
 #arco-calamares-next

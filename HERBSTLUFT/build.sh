@@ -29,7 +29,7 @@ echo
 	desktop="hlwm"
 	lightdmDesktop="herbstluftwm"
 
-	hefftorlinuxversion='v21.01.01'
+	hefftorlinuxversion='v2021-01-2'
 
 	isoLabel='hefftorlinux-'$desktop'-'$hefftorlinuxversion'-x86_64.iso'
 

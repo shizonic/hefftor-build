@@ -414,9 +414,9 @@ ttf-ms-fonts
 # numix-icon-theme-git
 # numix-circle-icon-theme-git
 # paper-icon-theme
-sardi-icons
-surfn-icons-git
-surfn-arc-breeze-icons-git
+# sardi-icons
+# surfn-icons-git
+# surfn-arc-breeze-icons-git
 #zafiro-icon-theme
 
 ###network
@@ -516,7 +516,7 @@ arcolinux-pipemenus-git
 # arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
-arcolinux-system-config-git
+# arcolinux-system-config-git
 #arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 # arcolinux-termite-themes-git
@@ -611,8 +611,8 @@ arcolinux-tweak-tool-git
 ###########################################################################
 #                                ARCOLINUX CALAMARES
 ###########################################################################
-
-arco-calamares
+hefftor-calamares
+#arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
 #arco-calamares-next
@@ -815,7 +815,8 @@ hefftor-grub-theme-vimix-git
 #                             HEFFTOR CONFIGS
 ###########################################################################
 hefftor-conky-elegant-git
-hefftor-glava-config-git
+hefftor-system-config-git
+# hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
@@ -827,12 +828,13 @@ hefftor-lightdm-slick-greeter-git
 hefftor-fonts-git
 hefftor-juno-theme-git
 hefftor-tela-icons-git
-hefftor-flat-remix-theme-git
+# hefftor-flat-remix-theme-git
+hefftor-layan-theme-git
 hefftor-jetbrainsmono-font-git
 hefftor-latte-dock-git
 hefftor-wallpapers-git
-hefftor-wallpapers-v2-git
-hefftor-wallpapers-v3-git
+# hefftor-wallpapers-v2-git
+# hefftor-wallpapers-v3-git
 #hefftor-bibata-cursor-git
 hefftor-variety-git
 # hefftor-betterlockscreen-cache-git

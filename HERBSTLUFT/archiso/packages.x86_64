@@ -301,7 +301,7 @@ ttf-ubuntu-font-family
 ###themes
 #adapta-gtk-theme
 arc-gtk-theme
-kvantum-qt5
+# kvantum-qt5
 #openbox-arc-git
 
 ###utilities
@@ -355,7 +355,7 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+# qt5-styleplugins
 #qt5-tools
 qt5-webkit
 #powertop
@@ -415,8 +415,8 @@ ttf-ms-fonts
 # numix-icon-theme-git
 # numix-circle-icon-theme-git
 # paper-icon-theme
-sardi-icons
-surfn-icons-git
+# sardi-icons
+# surfn-icons-git
 #surfn-arc-breeze-icons-git
 # zafiro-icon-theme
 
@@ -484,7 +484,7 @@ arcolinux-fonts-git
 # arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
-arcolinux-kvantum-git
+# arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
 #arcolinux-kvantum-theme-arc-git
@@ -518,7 +518,7 @@ arcolinux-pipemenus-git
 # arcolinux-root-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git
-arcolinux-system-config-git
+# arcolinux-system-config-git
 #arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 # arcolinux-termite-themes-git
@@ -613,8 +613,8 @@ arcolinux-tweak-tool-git
 ###########################################################################
 #                                ARCOLINUX CALAMARES
 ###########################################################################
-
-arco-calamares
+hefftor-calamares
+# arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
 # arco-calamares-next
@@ -821,6 +821,7 @@ hefftor-conky-elegant-twm-git
 hefftor-glava-config-git
 hefftor-mpd-config-git
 hefftor-root-git
+hefftor-system-config-git
 # hefftor-gimp-git
 # hefftor-plank-git
 hefftor-polybar-git
@@ -832,8 +833,8 @@ hefftor-juno-theme-git
 hefftor-tela-icons-git
 hefftor-jetbrainsmono-font-git
 hefftor-wallpapers-git
-hefftor-wallpapers-v2-git
-hefftor-wallpapers-v3-git
+# hefftor-wallpapers-v2-git
+# hefftor-wallpapers-v3-git
 #hefftor-bibata-cursor-git
 hefftor-variety-git
 hefftor-betterlockscreen-cache-git
@@ -879,7 +880,7 @@ nodejs
 ncmpcpp
 mpd
 mpc
-glava
+# glava
 dunst
 encfs
 gnome-calculator

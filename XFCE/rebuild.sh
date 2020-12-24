@@ -29,7 +29,7 @@ echo
 	desktop="xfce"
 	lightdmDesktop="xfce"
 
-	hefftorlinuxversion='v2021-01'
+	hefftorlinuxversion='v2021-01-2'
 
 	isoLabel='hefftorlinux-'$desktop'-'$hefftorlinuxversion'-x86_64.iso'
 
