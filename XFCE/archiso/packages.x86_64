@@ -437,7 +437,7 @@ grub-customizer
 hardcode-fixer-git
 inxi
 mintstick-git
-neofetch
+# neofetch
 #numix-gtk-theme-git
 pamac-aur
 peek
@@ -819,6 +819,7 @@ hefftor-system-config-git
 ###########################################################################
 hefftor-conky-elegant-git
 # hefftor-glava-config-git
+hefftor-neofetch-git
 hefftor-mpd-config-git
 hefftor-root-git
 hefftor-gimp-git
