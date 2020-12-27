@@ -906,3 +906,8 @@ chrome-gnome-shell
 libappindicator-gtk3
 gnome-shell-extension-appindicator-git
 guake
+###########################################################################
+#                             STUDIO ONLY
+#
+###########################################################################                             
+
